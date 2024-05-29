@@ -1,18 +1,20 @@
-import React from 'react';
-import './App.scss';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import React from "react";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
+import Testimonials from "./components/Testimonials/Testimonials";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <p>Welcome to my static site template built with React!</p>
-      </main>
-      <Footer />
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
-
-export default App;
