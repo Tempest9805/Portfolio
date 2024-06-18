@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+React Version 18.3.1
+Node version 18.16.1
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install all dependences
 
 ### `npm start`
 
