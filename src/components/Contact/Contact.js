@@ -19,7 +19,18 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <div className="bg-red-900 relative flex flex-wrap py-6 rounded shadow-md w-screen">
+        <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            className="absolute inset-0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
+            style={{ filter: "opacity(0.7)" }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7856.935761372414!2d-84.44151890523952!3d10.06069512408126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa05acb6d4b4109%3A0xb18e6f4f34b0460!2sProvincia%20de%20Alajuela%2C%20Palmares!5e0!3m2!1ses!2scr!4v1718676072281!5m2!1ses!2scr"
+          />
+          <div className="bg-gray-800 relative flex flex-wrap py-6 rounded shadow-md w-screen">
             <div className="lg:w-1/2 px-12">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 DIRECCIÓN

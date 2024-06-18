@@ -1,6 +1,6 @@
 # Portfolio
 
-React Version 18.3.1
+React Version 18.3.1.\
 Node version 18.16.1
 ## Available Scripts
 
