@@ -29,7 +29,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="./ryu.jpg"
+            src="./ryu.webp"
           />
         </div>
       </div>
